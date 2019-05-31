@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun sendSms() {
         val number = txtview_number_send.text.toString()
-        //val name = txtview_name_send
+        val name = txtview_name_send
         val mensaje = editxt_msj_to_send.text.toString()
 
         SmsManager.getDefault().sendTextMessage(number,null,mensaje,null,null)
