@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">App Messenger SMS</string>
+    <string name="rationale_permission_message">Camera app requires camera access</string>
 </resources>
